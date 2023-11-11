@@ -39,6 +39,11 @@ def check():
     if game_board[0][2] == "X" and game_board[1][1] == "X" and game_board[2][0] == "X":
         print("Player2 win!")
 
+def draw():
+    if game_board[0][0]!="-" and game_board[0][1]!="-" and game_board[0][2]!="-" and game_board[1][0]!="-" and game_board[1][1]!="-" and game_board[1][2]!="-" and game_board[2][0]!="-" and game_board[2][1]!="-" and game_board[2][2]!="-": 
+        print("It's a draw!") 
+        quit() 
+
 game_board = [["-","-","-"],
               ["-","-","-"],
               ["-","-","-"]]
@@ -54,6 +59,7 @@ while True:
                     game_board[row][col] = "O" 
                     show()
                     check()
+                    draw()
                     break
                 else:
                     print("Enter another numbers!")
@@ -73,6 +79,7 @@ while True:
                     game_board[row][col] = "X"
                     show()
                     check()
+                    draw()
                     break
                 else:
                     print("Enter another numbers!")
