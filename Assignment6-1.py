@@ -66,10 +66,6 @@ while True:
             else:
                 print("Enter a number between 0 & 2 !")
 
-    if game_board[0][0] != "-" and game_board[0][1] != "-" and game_board[0][2] != "-" and game_board[1][0] != "-" and game_board[1][1] != "-" and game_board[1][2] != "-" and game_board[2][0] != "-" and game_board[2][1] != "-" and game_board[2][2] != "-" and check() != True:
-                print("It's a draw!")
-                break
-
     print("Player2") # => X
     while True:
             row = int(input("Enter row: "))
@@ -85,7 +81,3 @@ while True:
                     print("Enter another numbers!")
             else:
                 print("Enter a number between 0 & 2 !")
-
-    if game_board[0][0] != "-" and game_board[0][1] != "-" and game_board[0][2] != "-" and game_board[1][0] != "-" and game_board[1][1] != "-" and game_board[1][2] != "-" and game_board[2][0] != "-" and game_board[2][1] != "-" and game_board[2][2] != "-" and check() != True:
-        print("It's a draw!")
-        break
