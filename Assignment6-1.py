@@ -7,37 +7,53 @@ def show():
 def check():
     if game_board[0][0] == "O" and game_board[0][1] == "O" and game_board[0][2] == "O":
         print("Player1 win!")
+        quit()
     if game_board[1][0] == "O" and game_board[1][1] == "O" and game_board[1][2] == "O":
         print("Player1 win!")
+        quit()
     if game_board[2][0] == "O" and game_board[2][1] == "O" and game_board[2][2] == "O":
         print("Player1 win!")
+        quit()
     if game_board[0][0] == "O" and game_board[1][0] == "O" and game_board[2][0] == "O":
         print("Player1 win!")
+        quit()
     if game_board[0][1] == "O" and game_board[1][1] == "O" and game_board[2][1] == "O":
         print("Player1 win!")
+        quit()
     if game_board[0][2] == "O" and game_board[1][2] == "O" and game_board[2][2] == "O":
         print("Player1 win!")
+        quit()
     if game_board[0][0] == "O" and game_board[1][1] == "O" and game_board[2][2] == "O":
         print("Player1 win!")
+        quit()
     if game_board[0][2] == "O" and game_board[1][1] == "O" and game_board[2][0] == "O":
         print("Player1 win!")
+        quit()
 # ------------------------------------------------------------------------------------------
     if game_board[0][0] == "X" and game_board[0][1] == "X" and game_board[0][2] == "X":
         print("Player2 win!")
+        quit()
     if game_board[1][0] == "X" and game_board[1][1] == "X" and game_board[1][2] == "X":
         print("Player2 win!")
+        quit()
     if game_board[2][0] == "X" and game_board[2][1] == "X" and game_board[2][2] == "X":
         print("Player2 win!")
+        quit()
     if game_board[0][0] == "X" and game_board[1][0] == "X" and game_board[2][0] == "X":
         print("Player2 win!")
+        quit()
     if game_board[0][1] == "X" and game_board[1][1] == "X" and game_board[2][1] == "X":
         print("Player2 win!")
+        quit()
     if game_board[0][2] == "X" and game_board[1][2] == "X" and game_board[2][2] == "X":
         print("Player2 win!")
+        quit()
     if game_board[0][0] == "X" and game_board[1][1] == "X" and game_board[2][2] == "X":
         print("Player2 win!")
+        quit()
     if game_board[0][2] == "X" and game_board[1][1] == "X" and game_board[2][0] == "X":
         print("Player2 win!")
+        quit()
 
 def draw():
     if game_board[0][0]!="-" and game_board[0][1]!="-" and game_board[0][2]!="-" and game_board[1][0]!="-" and game_board[1][1]!="-" and game_board[1][2]!="-" and game_board[2][0]!="-" and game_board[2][1]!="-" and game_board[2][2]!="-": 
